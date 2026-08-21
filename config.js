@@ -1,14 +1,26 @@
 module.exports = {
-    botToken: process.env.BOT_TOKEN || "ISI_TOKEN_BOT_DARI_BOTFATHER_DI_SINI",
+    // Pengaturan Utama Bot
+    botToken: "8775275378:AAFZToZFCXx7RvASBoL4BAb_5Pxn3DlEAqs",
     botName: "Alight Motion Creator",
+    
+    // Pengaturan Owner
     ownerName: "Barikz",
-    ownerId: process.env.OWNER_ID || "ISI_ID_TELEGRAM_KAMU_DI_SINI", 
+    ownerId: "6976717581", // Gunakan @userinfobot untuk cek ID
+    
+    // API Keys BetaBotz
     askey: "AK-yrDsjDEHSj",
-    pakasirProject: process.env.PAKASIR_PROJECT || "ISI_SLUG_PROJECT_PAKASIR", 
-    pakasirApiKey: process.env.PAKASIR_API_KEY || "ISI_API_KEY_PAKASIR",       
-    channelUsername: "@LyraGroupEntertainment", 
+    
+    // Payment Gateway PAKASIR
+pakasirProject: "toko-barik", // Contoh: depodomain (Tanpa URL, hanya slug)
+pakasirApiKey: "mW6g9cR2tbiDY3vxzbOedQZvYhkNO4A7",       // Dapat di detail proyek Pakasir
+      // Fitur Wajib Follow (Force Subscribe)
+    channelUsername: "@LyraGroupEntertainment", // Username channel dengan @
     channelLink: "https://t.me/LyraGroupEntertainment",
+    
+    // Gambar Start Menu
     startImage: "https://fybot.my.id/7npfrpq.jpg",
+    // Teks Default
+    // Teks Default
     prefix: "/",
-    version: "11.0.0 (Vercel Serverless Dashboard)"
+    version: "7.0.0 (Force Sub Edition)"
 };
